@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link for Lightbox2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- link from my stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>A preview of the Paris Olympic</title>
+</head>
+<body>
+
+<header class="container-fluid bg-secondary"></header>
+
+<nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://olympics.com/fr/paris-2024" target="_blank">Official site </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/paris2024/" target="_blank">Instagram</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/JO Paris.jpg" class="d-block w-100" alt="foto1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>OFFICIAL LOGO</h5>
+        <p>This is the official logo of the 2024 Olympics Games edition. It is inspired by the golden medal, the Olympic flame and Marianne, a french symbol. </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/affiche JO.jpg" class="d-block w-100" alt="foto2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>OFFICIAL POSTER</h5>
+        <p >This poster, designed by Jerôme Bosh shows an delusional view of Paris and France where the Olympics Game will take place.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<main class="container">
+  <h1 class="me-md-5 ms-lg-2 text-capitalize">A preview of the city of Paris</h1>
+  <p class="me-3">Here it what you will see during the Olympics Games</p>
+  <p class="text-end mt-1">During these 2 months, including the Olympics and Paralympics Games, you will be able to discover Paris and the french culture around the main theme of sport because this is above all a sport event. Here it is a teasing of what you will be able to see.</p>
+
+      <div class="row">
+        <div class="image-grid">
+          <div class="image-item"><a href="images/tour eiffel.jpeg" data-lightbox="gallery"><img src="images/tour eiffel.jpeg" alt="Image 1"></a></div>
+          <div class="image-item"><a href="images/pont.jpeg" data-lightbox="gallery"><img src="images/pont.jpeg" alt="Image 2"></a></div>
+          <div class="image-item"><a href="images/mintmartre.jpeg" data-lightbox="gallery"><img src="images/mintmartre.jpeg" alt="Image 3"></a></div>
+          <div class="image-item"><a href="images/nd.jpeg" data-lightbox="gallery"><img src="images/nd.jpeg" alt="Image 4"></a></div>
+          <div class="image-item"><a href="images/rue.jpeg" data-lightbox="gallery"><img src="images/rue.jpeg" alt="Image 5"></a></div>
+          <div class="image-item"><a href="images/Triomphe.jpeg" data-lightbox="gallery"><img src="images/Triomphe.jpeg" alt="Image 6"></a></div>
+      </div>
+      </div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <button data-bs-toggle="modal" data-bs-target="#myModal" class = "btn btn-success">Follow for more information</button>
+
+</main>
+
+<div class="modal" id="myModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-header">
+      <h1 class="h2 text-danger bg-warning">Newsletter inscription</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+    <div class="modal-content">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>      
+    </div>
+  </div>
+</div>
+    
+
+
+<footer class="custom-footer mt-2 container-fluid">
+
+
+</footer>
+
+
+<!-- Scripts for Lightbox2 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
